@@ -1,0 +1,9 @@
+
+
+schematics Delay_v2.sch
+
+
+elements-dir ~/work/electronics/geda/components/
+
+
+output-name Delay_v2
