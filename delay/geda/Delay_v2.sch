@@ -29,7 +29,7 @@ symversion=0.1
 T 46700 45300 5 10 1 1 180 0 1
 value=10000mkf
 T 45600 45500 5 10 0 1 180 0 1
-footprint=RCY400P
+footprint=CAP_L
 }
 C 43500 44700 1 90 0 resistor-2.sym
 {
