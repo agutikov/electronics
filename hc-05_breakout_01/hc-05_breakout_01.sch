@@ -816,7 +816,7 @@ device=NPN_TRANSISTOR
 T 45900 42200 5 10 1 1 0 4 1
 refdes=Q2
 T 45800 42400 5 10 0 0 0 0 1
-footprint=TO92
+footprint=TO-92_1
 }
 C 44600 40300 1 0 0 npn-1.sym
 {
@@ -825,7 +825,7 @@ device=NPN_TRANSISTOR
 T 44800 41200 5 10 1 1 0 4 1
 refdes=Q1
 T 44700 41400 5 10 0 0 0 0 1
-footprint=TO92
+footprint=TO-92_1
 }
 C 53700 43300 1 180 0 connector20-1.sym
 {
