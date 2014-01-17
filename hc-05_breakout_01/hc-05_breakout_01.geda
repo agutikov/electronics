@@ -1,0 +1,12 @@
+
+
+schematics hc-05_breakout_01.sch
+
+
+elements-dir ../geda/components
+elements-dir ../../Hardware/gEDA
+elements-dir ../../geda-pcb-footprints-rxdtxd/
+elements-dir ../../open-lab-monitor/pcb/geda/packages/luciani/
+
+
+output-name hc-05_breakout_01

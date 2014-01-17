@@ -7,11 +7,12 @@ geda intro:
   http://www.delorie.com/pcb/docs/gs/gs.html
 
 
-symbols are taken fro here:
+symbols are taken from here:
   http://www.gedasymbols.org/user/amand_tihon/#symbols
 
 footprints are taken from here:
   http://www.luciani.org/geda/pcb/footprints-gif/RELAY-gif.html
   https://github.com/dwblair/open-lab-monitor/tree/master/pcb/geda/packages/luciani
 
-
+HC-05 symbols and footprints are taken from here:
+  https://github.com/WheelieCar/Hardware/tree/master/gEDA

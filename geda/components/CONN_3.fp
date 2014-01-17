@@ -1,1 +1,1 @@
-CON_HDR-350P-1R-3N__Molex_39351-Series.fp
+CON_HDR-350P-3N__Phoenix_1984028.fp

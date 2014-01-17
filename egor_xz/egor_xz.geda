@@ -1,0 +1,11 @@
+
+
+schematics egor_xz.sch
+
+
+elements-dir ../geda/components/
+elements-dir ../../open-lab-monitor/pcb/geda/packages/luciani
+elements-dir ../../geda-pcb-footprints-rxdtxd
+
+
+output-name egor_xz
