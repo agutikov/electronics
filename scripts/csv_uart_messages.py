@@ -7,6 +7,8 @@ import io
 from pprint import pprint
 
 
+
+
 def time2str (t):
 	if t >= 1:
 		return ("%.1f" % t) + "s"
@@ -29,6 +31,26 @@ def str2time (s):
 		'ns' : 1000000000.0
 	}[a[1]]
 	return v / mul
+
+def xor(data):
+	result = 0
+	for b in data:
+		result ^= b
+	return result
+
+def lrc(data):
+	result = 0
+	for b in data:
+		result = (result + b) & 0xFF
+	return (((result ^ 0xFF) + 1) & 0xFF)
+
+def cs(data):
+	result = 1
+	for b in data:
+		result = (result + b) & 0xFF
+	return result
+
+
 
 def ms (i):
 	return i / 1000000.0
@@ -108,15 +130,31 @@ delays = []
 for idx, b in enumerate(octets):
 	delays.append(b.start - (0 if idx == 0 else octets[idx-1].end))
 
+messages = []
+tmp = []
+
 for idx, b in enumerate(octets):
 	# print(time2str(delays[idx]))
 	# print(b.str())
 	if delays[idx] > 0.02:
-		print("\n" + time2str(delays[idx]) + "\n")
-	print(b.value())
+		# print("\n" + time2str(delays[idx]) + "\n")
+		if tmp:
+			messages.append([delays[idx], tmp])
+			tmp = []
+	if not b.event:
+		tmp.append(b.val)
+	# print(b.value())
 
 
+print("\n")
 
+def printhexarr (a):
+	print(("%02X"+", %02X"*(len(a)-1)) % tuple(a))
+
+for m in messages:
+	pprint(m[0])
+	printhexarr(m[1])
+	print("xor: 0x%02X, lrc: 0x%02X, cs: 0x%02X" % (xor(m[1][:-1]), lrc(m[1][:-1]), cs(m[1][:-1])))
 
 
 
