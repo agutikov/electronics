@@ -16,7 +16,7 @@ refdes=D1
 T 50000 48400 5 10 0 0 0 0 1
 device=LED
 T 49900 47800 5 10 0 1 0 0 1
-footprint=LED3_1
+footprint=LED3_1_onsolder
 T 49600 48100 5 10 1 1 0 0 1
 value=1.9V, 20mA
 }
@@ -27,7 +27,7 @@ refdes=D2
 T 50800 48100 5 10 0 0 0 0 1
 device=LED
 T 50700 47500 5 10 0 1 0 0 1
-footprint=LED3_1
+footprint=LED3_1_onsolder
 T 50800 47300 5 10 1 1 0 0 1
 value=1.9V, 20mA
 }
@@ -38,7 +38,7 @@ refdes=D3
 T 49100 45700 5 10 0 0 0 0 1
 device=LED
 T 49000 45100 5 10 0 1 0 0 1
-footprint=LED3_1
+footprint=LED3_1_onsolder
 T 49000 45000 5 10 1 1 0 0 1
 value=1.9V, 20mA
 }
@@ -49,7 +49,7 @@ refdes=D4
 T 48500 46000 5 10 0 0 0 0 1
 device=LED
 T 48400 45400 5 10 0 1 0 0 1
-footprint=LED3_1
+footprint=LED3_1_onsolder
 T 48200 45700 5 10 1 1 0 0 1
 value=1.9V, 20mA
 }
@@ -60,7 +60,7 @@ refdes=D5
 T 43300 36700 5 10 0 0 270 0 1
 device=LED
 T 42700 36800 5 10 0 1 270 0 1
-footprint=LED3_1
+footprint=LED3_1_onsolder
 T 42400 36000 5 10 1 1 0 0 1
 value=1.9V, 20mA
 }
@@ -71,7 +71,7 @@ device=RESISTOR
 T 49000 47800 5 10 1 1 0 0 1
 refdes=R1
 T 48700 47800 5 10 0 1 0 0 1
-footprint=R025-1
+footprint=R025_onsolder
 T 48900 48000 5 10 1 1 0 0 1
 value=75
 }
@@ -82,7 +82,7 @@ device=RESISTOR
 T 49700 47500 5 10 1 1 0 0 1
 refdes=R2
 T 49400 47500 5 10 0 1 0 0 1
-footprint=R025-1
+footprint=R025_onsolder
 T 49500 47300 5 10 1 1 0 0 1
 value=75
 }
@@ -93,7 +93,7 @@ device=RESISTOR
 T 47900 45100 5 10 1 1 0 0 1
 refdes=R3
 T 47700 45100 5 10 0 1 0 0 1
-footprint=R025-1
+footprint=R025_onsolder
 T 47600 45000 5 10 1 1 0 0 1
 value=75
 }
@@ -104,7 +104,7 @@ device=RESISTOR
 T 47200 45400 5 10 1 1 0 0 1
 refdes=R4
 T 46900 45400 5 10 0 1 0 0 1
-footprint=R025-1
+footprint=R025_onsolder
 T 46800 45300 5 10 1 1 0 0 1
 value=75
 }
@@ -115,7 +115,7 @@ device=RESISTOR
 T 42600 37800 5 10 1 1 180 0 1
 refdes=R5
 T 42900 37100 5 10 0 1 90 0 1
-footprint=R025-1
+footprint=R025_onsolder
 T 42400 37300 5 10 1 1 0 0 1
 value=75
 }
@@ -126,7 +126,7 @@ device=RESISTOR
 T 38500 47200 5 10 1 1 180 0 1
 refdes=R8
 T 38800 46500 5 10 0 1 90 0 1
-footprint=R025-1
+footprint=R025_onsolder
 T 38200 46800 5 10 1 1 0 0 1
 value=10k
 }
@@ -137,7 +137,7 @@ device=RESISTOR
 T 51400 48600 5 10 1 1 180 0 1
 refdes=R11
 T 51700 48600 5 10 0 1 180 0 1
-footprint=R025-1
+footprint=R025_onsolder
 T 50700 48600 5 10 1 1 0 0 1
 value=10k
 }
@@ -150,7 +150,7 @@ refdes=C1
 T 37400 37300 5 10 0 0 90 0 1
 symversion=0.1
 T 38300 37100 5 10 0 0 90 0 1
-footprint=C200
+footprint=C200_onsolder
 T 37800 37300 5 10 1 1 0 0 1
 value=1u
 }
@@ -163,7 +163,7 @@ refdes=C2
 T 40400 37300 5 10 0 0 90 0 1
 symversion=0.1
 T 41300 37100 5 10 0 1 90 0 1
-footprint=C200
+footprint=C200_onsolder
 T 40700 37200 5 10 1 1 0 0 1
 value=2.2u
 }
@@ -176,7 +176,7 @@ refdes=C4
 T 42500 37800 5 10 0 0 270 0 1
 symversion=0.1
 T 41600 38000 5 10 0 1 270 0 1
-footprint=CPolar200
+footprint=CPolar200_onsolder
 T 41400 37200 5 10 1 1 0 0 1
 value=100u
 }
@@ -189,7 +189,7 @@ refdes=C5
 T 39500 37800 5 10 0 0 270 0 1
 symversion=0.1
 T 38600 38000 5 10 0 1 270 0 1
-footprint=CPolar200
+footprint=CPolar200_onsolder
 T 38500 37300 5 10 1 1 0 0 1
 value=10u
 }
@@ -334,7 +334,7 @@ device=DIODE
 T 39900 39900 5 10 1 1 180 0 1
 refdes=D9
 T 40500 39700 5 10 0 1 180 0 1
-footprint=DO-41-r
+footprint=DO-41_onsolder
 T 40000 39800 5 10 1 1 0 0 1
 model=1N4001
 }
@@ -770,7 +770,7 @@ refdes=C3
 T 38000 45200 5 10 0 0 90 0 1
 symversion=0.1
 T 38900 45000 5 10 0 1 90 0 1
-footprint=C200
+footprint=C200_onsolder
 T 38300 45100 5 10 1 1 0 0 1
 value=0.1u
 }
@@ -782,7 +782,7 @@ refdes=CONN1
 T 55100 44250 5 10 0 0 0 0 1
 device=CONNECTOR_17
 T 55100 44450 5 10 0 0 0 0 1
-footprint=CONNECTOR_17_1
+footprint=CONNECTOR_17_1_onsolder
 }
 C 59000 37000 1 0 0 connector17-2.sym
 {
@@ -791,7 +791,7 @@ refdes=CONN2
 T 59300 44250 5 10 0 0 0 0 1
 device=CONNECTOR_17
 T 59300 44450 5 10 0 0 0 0 1
-footprint=CONNECTOR_17_1
+footprint=CONNECTOR_17_1_onsolder
 }
 N 54000 37900 54500 37900 4
 N 54500 37900 54500 38200 4
