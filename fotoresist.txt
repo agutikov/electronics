@@ -1,5 +1,8 @@
 
 
+http://www.ixbt.com/mainboard/pcb-at-home.shtml
+
+
 1. Разводка
 2. Экспорт слоёв
 2. Печать шаблона
