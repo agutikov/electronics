@@ -4,3 +4,10 @@
 *.bak*
 *.png
 *.ps
+*.eps
+
+*.pdf
+*.aux
+*.log
+*.out
+*.png

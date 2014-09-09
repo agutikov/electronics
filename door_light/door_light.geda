@@ -1,0 +1,7 @@
+schematics door_light.sch
+
+
+elements-dir ../geda/components
+
+
+output-name door_light
