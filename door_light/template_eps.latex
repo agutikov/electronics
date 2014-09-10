@@ -12,15 +12,15 @@
 
 \begin{figure}[]
 
-\reflectbox { \centerline {
+\centerline {
 \includegraphics[frame, angle=90]{bottom.eps}
 \includegraphics[frame, angle=90]{bottom.eps} 
-} }
+}
 
-\reflectbox { \centerline {
+\centerline {
 \includegraphics[frame, angle=90]{bottom.eps}
 \includegraphics[frame, angle=90]{bottom.eps} 
-} }
+}
 
 \end{figure} 
 

@@ -8,7 +8,7 @@ all: pdf
 eps: bottom.eps
 
 bottom.eps: ${NAME}.pcb Makefile
-	pcb -x eps --layer-stack "bottom" --eps-file bottom.eps --monochrome --eps-scale 1.1 --as-shown  $<  
+	pcb -x eps --layer-stack "bottom" --eps-file bottom.eps --monochrome --eps-scale 1.05 --as-shown  $<  
 	
 ps: bottom.ps	
 	
