@@ -2,6 +2,7 @@ schematics door_light.sch
 
 
 elements-dir ../geda/components
+elements-dir ../../geda-pcb-footprints-rxdtxd
 
 
 output-name door_light
