@@ -17,7 +17,7 @@ refdes=F1
 T 55000 44250 5 10 0 0 0 0 1
 symversion=0.1
 T 54800 43500 5 10 0 0 0 0 1
-footprint=FUSE5X20
+footprint=AXIAL_LAY 800
 }
 C 57400 42500 1 0 1 diode-1.sym
 {

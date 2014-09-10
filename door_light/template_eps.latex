@@ -9,17 +9,19 @@
 
 \begin{document}
 
+
 \begin{figure}[]
 
-\centerline {
+\reflectbox { \centerline {
 \includegraphics[frame, angle=90]{bottom.eps}
 \includegraphics[frame, angle=90]{bottom.eps} 
-}
-\centerline {
-\includegraphics[frame, angle=90]{bottom.eps}
-\includegraphics[frame, angle=90]{bottom.eps}
-}
-\end{figure}
+} }
 
+\reflectbox { \centerline {
+\includegraphics[frame, angle=90]{bottom.eps}
+\includegraphics[frame, angle=90]{bottom.eps} 
+} }
+
+\end{figure} 
 
 \end{document}
