@@ -1,0 +1,7 @@
+schematics mpx2202_breakout.sch
+
+
+elements-dir ../geda/components
+
+
+output-name mpx2202_breakout
